@@ -1,0 +1,698 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>Preparing a study for SPM12w &#8212; SPM12w</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "light";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=5b4479735964841361fd" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=5b4479735964841361fd" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.1.2/css/all.min.css?digest=5b4479735964841361fd" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.1.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" href="../_static/styles/sphinx-book-theme.css?digest=14f4ca6b54d191a8c7657f6c759bf11a5fb86285" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/design-style.4045f2051d55cab465a707391d5b2007.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd" />
+  <script src="../_static/vendor/fontawesome/6.1.2/js/all.min.js?digest=5b4479735964841361fd"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js?digest=5a5c038af52cf7bc1a1ec88eea08e6366ee68824"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"
+const thebe_selector = ".thebe,.cell"
+const thebe_selector_input = "pre"
+const thebe_selector_output = ".output, .cell_output"
+</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'content/ch2_prepare';</script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="SPM12w Parameter Files" href="ch3_parameters.html" />
+    <link rel="prev" title="Downloading and Installing SPM12w" href="ch1_downloading.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>
+    Back to top
+  </button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__primary"
+          id="__primary"/>
+  <label class="overlay overlay-primary" for="__primary"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          name="__secondary"
+          id="__secondary"/>
+  <label class="overlay overlay-secondary" for="__secondary"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+  
+    <nav class="bd-header navbar navbar-expand-lg bd-navbar">
+    </nav>
+  
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+
+<a class="navbar-brand logo" href="intro.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo_spm12w.png" class="logo__image only-light" alt="SPM12w - Home"/>
+    <script>document.write(`<img src="../_static/logo_spm12w.png" class="logo__image only-dark" alt="SPM12w - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item"><nav class="bd-links" id="bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="intro.html">
+                    Welcome to SPM12w
+                </a>
+            </li>
+        </ul>
+        <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="ch1_downloading.html">Downloading and Installing SPM12w</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Preparing a study for SPM12w</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch3_parameters.html">SPM12w Parameter Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch4_tutorial.html">Tutorial Walkthrough</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch5_examples.html">Tutorial Walkthrough</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch6_tools.html">Additional Tools</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch7_faq.html">FAQ</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ch8_changes.html">Change log</a></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><label class="sidebar-toggle primary-toggle btn btn-sm" for="__primary" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</label></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-source-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Source repositories">
+    <i class="fab fa-github"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book" target="_blank"
+   class="btn btn-sm btn-source-repository-button dropdown-item"
+   title="Source repository"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fab fa-github"></i>
+  </span>
+<span class="btn__text-container">Repository</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2Fcontent/ch2_prepare.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button dropdown-item"
+   title="Open an issue"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+<span class="btn__text-container">Open issue</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/content/ch2_prepare.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
+    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>Preparing a study for SPM12w</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#study-directory-structure">Study Directory Structure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conversion-to-bids-using-spm12w">Conversion to BIDS using SPM12w</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#below-are-some-examples-of-different-uses-of-spm12w-prepare">Below are some examples of different uses of spm12w_prepare</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-the-participant-and-events-tsv-files-using-spm12w">Creating the participant and events tsv files using SPM12w</a></li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article" role="main">
+                  
+  <section id="preparing-a-study-for-spm12w">
+<h1>Preparing a study for SPM12w<a class="headerlink" href="#preparing-a-study-for-spm12w" title="Permalink to this heading">#</a></h1>
+<section id="study-directory-structure">
+<h2>Study Directory Structure<a class="headerlink" href="#study-directory-structure" title="Permalink to this heading">#</a></h2>
+<p>SPM12w expects a BIDS-compliant dataset. That said, there are several ways to organize BIDS data that are all euqally compliant. The current version of SPM12w expects the BIDS dataset to be organized as outlined below.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The requirement that the bids-compliant datasets used in spm12w follow the conventions below does mean that users will have to buy into our way of organizing bids data and specifying task <strong>.tsv</strong> files.</p>
+<p>Users taunting SPM12w with idiosyncratic file structures do so at their own peril.</p>
+</div>
+<p>The following is a minimal example of a new BIDS study ready to be processed with SPM12:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>tutorial_data/
+├──<span class="w"> </span>derivatives
+│<span class="w">   </span>└──<span class="w"> </span>wanger.1174
+│<span class="w">       </span>└──<span class="w"> </span>code
+├──<span class="w"> </span>raw_data
+│<span class="w">   </span>└──<span class="w"> </span>sub-s01
+│<span class="w">       </span>├──<span class="w"> </span>anat
+│<span class="w">       </span>└──<span class="w"> </span>func
+└──<span class="w"> </span>sourcedata
+<span class="w">    </span>├──<span class="w"> </span>code
+<span class="w">    </span>├──<span class="w"> </span>dicom
+<span class="w">    </span>└──<span class="w"> </span>tsvfiles
+</pre></div>
+</div>
+<div class="dropdown tip admonition">
+<p class="admonition-title">Click here for a full description of each directory’s contents</p>
+<ul class="simple">
+<li><p>tutorial_data: <strong>Name of the study directory</strong></p></li>
+<li><p>./derivatives: <strong>Location of BIDS derivatives (analyses and code)</strong></p></li>
+<li><p>./derivatives/wagner.1174: <strong>username. All derivatives are seperated according to user</strong></p></li>
+<li><p>./derivatives/wagner.1174/code: <strong>Location of spm12w parameter files and any other code</strong></p></li>
+<li><p>./raw_data: <strong>Location of bids-compliant dataset converted from files in sourcedata</strong></p></li>
+<li><p>./raw_data/sub-s01: <strong>Directory name of a single subject</strong></p></li>
+<li><p>./raw_data/sub-s01/anat: <strong>Location of anatomical data</strong></p></li>
+<li><p>./raw_data/sub-s01/func: <strong>Location of functional data</strong></p></li>
+<li><p>./raw_data/dwi: <strong>Location of dwi data</strong></p></li>
+<li><p>./sourcedata: <strong>Location of sourcedata</strong></p></li>
+<li><p>./sourcedata/dicom: <strong>Location of dicom archived from the scanner</strong></p></li>
+<li><p>./sourcedata/code: <strong>Optional location of code to be run after dicom conversion</strong></p></li>
+<li><p>./sourcedata/tsviles: <strong>Optional location of csv files to help create bids-compatible tsv files</strong></p></li>
+</ul>
+</div>
+</section>
+<section id="conversion-to-bids-using-spm12w">
+<h2>Conversion to BIDS using SPM12w<a class="headerlink" href="#conversion-to-bids-using-spm12w" title="Permalink to this heading">#</a></h2>
+<p>To begin using SPM12, it is necessary to have BIDS compliant directory stored under the study’s rawdata directory (see above). The easiest way to generate one is to use <strong>spm12w_prepare.m</strong>. This script will read in DICOM or PAR/REC data stored under sourcedata and convert these to BIDS using the matlab based DICOM and PAR/REC converter <a class="reference external" href="https://github.com/xiangruili/dicm2nii"><strong>dicm2nii</strong></a>. Essentially, this script wraps <strong>dicm2nii.m</strong> to facilitate the conversion to BIDS.</p>
+<p>When run from the root of the study directory (e.g., tutorial_data), <strong>spm12w_prepare.m</strong> will look for a dicom or par/rec directory and provide a list of archives for conversion (either tar.gz or zip). For <strong>spm12w_prepare.m</strong> to determine the appropriate naming for each subject, the archives must be named according to the following convention.</p>
+<p><em><strong>parrec_tutorial01_9001DW_24feb01_s0018.zip</strong></em></p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+dicom</label><div class="sd-tab-content docutils">
+<p>Sourcedata format, can be either dicom or parrec</p>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+tutorial01</label><div class="sd-tab-content docutils">
+<p>BIDS subject ID for current study</p>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
+9001DW</label><div class="sd-tab-content docutils">
+<p>Scanner ID set by imaging center</p>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
+24feb01</label><div class="sd-tab-content docutils">
+<p>Date of scan</p>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4">
+s0018</label><div class="sd-tab-content docutils">
+<p>Unique subject ID in thelab database</p>
+</div>
+</div>
+<p>The prepare script has several optional arguments. Below is the help section of <strong>spm12w_prepare.m</strong></p>
+<div class="highlight-octave notranslate"><div class="highlight"><pre><span></span><span class="n">spm12w_prepare</span><span class="p">(</span><span class="n">scannerid</span><span class="p">,</span> <span class="n">sid</span><span class="p">,</span> <span class="n">bidsgui</span><span class="p">,</span> <span class="n">ptsv</span><span class="p">)</span>
+<span class="c">%</span>
+<span class="c">% Inputs</span>
+<span class="c">% ------</span>
+<span class="c">% scannerid: ScannerID tag or Filename of archived raw scanner data to be</span>
+<span class="c">% converted to BIDS and &quot;prepared&quot; for spm12w. If left</span>
+<span class="c">% unspecified, then spm12w_prepare will open a window allowing</span>
+<span class="c">% the user to select the files to prepare based on the</span>
+<span class="c">% information found in the fields of the matching archive</span>
+<span class="c">% filename. If specifying the full filename it can be specified</span>
+<span class="c">% with or without extension.</span>
+<span class="c">%</span>
+<span class="c">% sid: sid name that the raw scanner data will be renamed to during</span>
+<span class="c">% conversion. This corresponds to the subject identifier to be</span>
+<span class="c">% used for this study (e.g., s01, s02, s03, etc.). This will</span>
+<span class="c">% be converted to bids format (e.g., sub-s01). If you secify</span>
+<span class="c">% subject IDs in bids format then spm12w_prepare will not add</span>
+<span class="c">% the &#39;sub-&#39; prefix.</span>
+<span class="c">%</span>
+<span class="c">% bidsgui: Switch (true or false) to force the bidsGUI during conversion.</span>
+<span class="c">% Useful when needing to fix previously set preferences for bids</span>
+<span class="c">% conversion in dcm2nii, such as when you previously skipped a</span>
+<span class="c">% series that you now wish to keep. (default = true).</span>
+<span class="c">%</span>
+<span class="c">% ptsv: Switch (true or false) to enable creation of the</span>
+<span class="c">% participants.tsv file. If false, the data extracted from the</span>
+<span class="c">% dicom headers (i.e., weight, height) can still be found in</span>
+<span class="c">% the log files stored under sourcedata. (default = true)</span>
+</pre></div>
+</div>
+<p>Because the dicom conversion tool we wrap (dicm2nii) stores BIDS dicom series naming preferences in a hidden Matlab preferences file, it can be difficult to recover from mistakenly naming a run or if you decide to use different BIDS task names at a later date. As the tool will only open the GUI for DICOM series names it does not recognize, we’ve added a <strong>bidsgui</strong> switch. When set to true, it will force open the bids GUI allowing the user to edit names and skip any aborted runs etc. We’ve found that manual intervention is almost always warranted (i.e., to skip aborted runs or fix naming issues) and so the default for bidsgui is true.</p>
+<p>The workflow for spm12w_prepare is as follows:</p>
+<ol class="arabic simple">
+<li><p>Locate full path to the dicom archive file based on scannerID or filename</p></li>
+<li><p>Convert to bids compliant nifti via dicm2nii.</p></li>
+<li><p>Copy to a BIDS compliant rawdata directory renaming scannerID to the provided subject ID.</p></li>
+<li><p>Edit participants.tsv file to reflect the appropriate sid (default: True)</p></li>
+<li><p>Create modality invariant BIDS files, fix any json fields.</p></li>
+<li><p>Output logs and other files to sourcedata/dicom/logs</p></li>
+</ol>
+<section id="below-are-some-examples-of-different-uses-of-spm12w-prepare">
+<h3>Below are some examples of different uses of spm12w_prepare<a class="headerlink" href="#below-are-some-examples-of-different-uses-of-spm12w-prepare" title="Permalink to this heading">#</a></h3>
+<div class="highlight-octave notranslate"><div class="highlight"><pre><span></span><span class="c">% Examples:</span>
+<span class="c">%</span>
+<span class="c">% Without arguments, spm12w will prompt the user to select scanner archive</span>
+<span class="c">% files for &quot;preparing&quot;.</span>
+<span class="c">%</span>
+<span class="c">% &gt;&gt; spm12w_prepare</span>
+<span class="c">%</span>
+<span class="c">% With arguments, spm12w prepare the specified archive files. This case is</span>
+<span class="c">% useful if you want to avoid using the file selector gui.</span>
+<span class="c">%</span>
+<span class="c">% &gt;&gt; spm12w_prepare(&#39;scannerid&#39;,{&#39;4077DW&#39;,&#39;4099DW&#39;}, &quot;sid&#39;, {&#39;s01&#39;,&#39;s02&#39;})</span>
+<span class="c">% &gt;&gt; spm12w_prepare(&#39;bidsgui&#39;, false, &#39;ptsv&#39;, false)</span>
+</pre></div>
+</div>
+<p>The image below shows the conversion for a study containing multiple fMRI runs, anatomy, DWI, fieldmaps, and some additional files collected by the scanner that we don’t need. When using spm12w_prepare and dicm2nii, it’s important to get the modality and name correct in order for the bids conversion to be successful. Pay close attention to the names for the different sequence types and the leading zeros. If using spm12w_prepare.m for conversion, the subject name does not need to be changed as this will be done post-conversion.</p>
+<p>In this image you’ll see the formatting for <em>field maps, bold images and their associated sbref, anatomy and dwi</em>. In addition, notice the two aborted runs that were included in the export are skipped during conversion.</p>
+<figure class="align-default" id="directive-fig">
+<a class="reference internal image-reference" href="../_images/ch2_prepare.png"><img alt="../_images/ch2_prepare.png" src="../_images/ch2_prepare.png" style="width: 550px;" /></a>
+<figcaption>
+<p><span class="caption-number">Fig. 1 </span><span class="caption-text">spm12w_prepare: example of the scanner -&gt; bids mapping for a complicated case</span><a class="headerlink" href="#directive-fig" title="Permalink to this image">#</a></p>
+</figcaption>
+</figure>
+</section>
+</section>
+<section id="creating-the-participant-and-events-tsv-files-using-spm12w">
+<h2>Creating the participant and events tsv files using SPM12w<a class="headerlink" href="#creating-the-participant-and-events-tsv-files-using-spm12w" title="Permalink to this heading">#</a></h2>
+<p>Following the conversion of data to BIDS format, a few additional steps are needed to make the data BIDS compliant in such a way that it will pass BIDS validation <a class="reference external" href="https://bids-standard.github.io/bids-validator/">https://bids-standard.github.io/bids-validator/</a>. Firstly, the BIDS validator expects a BIDS compliant participant.tsv and json file that contains information about each participant. Although this can be anything, typically we would have age, gender, ethnicity and various individual difference scales. In addition, the bids validator expects every functional run to have accompanying BIDS compliant events.tsv and json file specifying all the information needed to model the task.</p>
+<p>spm12w provides a utility <strong>spm12w_tsvmaker.m</strong> to help create and place these <em>.tsv</em> and <em>.json</em> files in the appropriate locations. This utility requires that you first create template files that are located in <em>sourcedata/tsvfiles</em>. For an example of how these files are formatted, please see the tutorial dataset and the tutorial section of this manual.</p>
+<p>The tsvmaker script has several optional arguments. Below is the help section of <strong>spm12w_tsvmaker.m</strong>.</p>
+<div class="highlight-octave notranslate"><div class="highlight"><pre><span></span><span class="n">spm12w_tsvmaker</span><span class="p">(</span><span class="n">sids</span><span class="p">,</span> <span class="n">csvfile</span><span class="p">)</span>
+<span class="c">%</span>
+<span class="c">% Input</span>
+<span class="c">% -----</span>
+<span class="c">% sids: Cell array of subject ids. If left unspecified, a dialog box will</span>
+<span class="c">% appear asking the user to select subjects. If the special keyword</span>
+<span class="c">% &#39;allsids&#39; is provided then all subjects in the rawdata directory</span>
+<span class="c">% will be selected.</span>
+<span class="c">%</span>
+<span class="c">% csvfile: path to a participant or task specific csv file with 1 row of</span>
+<span class="c">% headers.</span>
+<span class="c">%</span>
+<span class="c">% This function takes either a participants_tsv.csv file or a</span>
+<span class="c">% task-XXXX_tsv.csv and outputs BIDS formated tsv files in the appropriate</span>
+<span class="c">% locations.</span>
+<span class="c">%</span>
+<span class="c">% When using to generate task tsv files:</span>
+<span class="c">%</span>
+<span class="c">% If task.tsv file (i.e., task-tutorial_events_tsv.json)</span>
+<span class="c">% the file should have one row per condition with columns</span>
+<span class="c">% specifying any of the following options:</span>
+<span class="c">% - subject-specific parametric columns</span>
+<span class="c">% - subject-specific behavioral response</span>
+<span class="c">% - subject-specific response time</span>
+<span class="c">%</span>
+<span class="c">% When using to generate participant tsv files:</span>
+<span class="c">% If participant.tsv file (i.e., participants_tsv.csv)</span>
+<span class="c">% The file should have one row per subject ID, with columns</span>
+<span class="c">% indicating various subject-specific data (i.e., age, height</span>
+<span class="c">% scale measures).</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./content"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="ch1_downloading.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Downloading and Installing SPM12w</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="ch3_parameters.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">SPM12w Parameter Files</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#study-directory-structure">Study Directory Structure</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#conversion-to-bids-using-spm12w">Conversion to BIDS using SPM12w</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#below-are-some-examples-of-different-uses-of-spm12w-prepare">Below are some examples of different uses of spm12w_prepare</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-the-participant-and-events-tsv-files-using-spm12w">Creating the participant and events tsv files using SPM12w</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Dylan D. Wagner
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2024.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=5b4479735964841361fd"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=5b4479735964841361fd"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
